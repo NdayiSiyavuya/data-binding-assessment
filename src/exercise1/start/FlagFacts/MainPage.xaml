@@ -30,11 +30,10 @@
                     VerticalOptions="Center"
                     Aspect="AspectFit" />
 
-            <Picker x:Name="country" SelectedItem="{Binding Country}" />
+            <Picker x:Name="country" />
 
             <Label Text="Current Design was Adopted on" FontAttributes="Bold" />
-            <DatePicker x:Name="adopted" MinimumDate="01/01/1700" HorizontalOptions="Start" 
-                        Date="{Binding DateAdopted}" />
+            <DatePicker x:Name="adopted"  />
 
             <Label Text="Has Shield" FontAttributes="Bold" />
             <Switch x:Name="hasShield" IsToggled="{Binding IncludesShield}" />
